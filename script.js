@@ -1,4 +1,5 @@
-document.getElementById('download-btn').addEventListener('click', function() {
-    alert('Download will start soon!');
-    // This isnt done yet lol
+document.querySelectorAll('.btn').forEach(button => {
+    button.addEventListener('click', () => {
+        alert('Button clicked!');
+    });
 });
