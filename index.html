@@ -3,41 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MacWare Executor</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>MacWare</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #000;
+        }
+        .header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .button {
+            background-color: #1e90ff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #007bff;
+        }
+        .discord-button {
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .dashboard-img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Add animations here */
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">MacWare</div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <!-- Add more navigation items as needed -->
-            </ul>
-        </nav>
-    </header>
+    <div class="header">
+        <h1>MacWare</h1>
+    </div>
 
-    <main>
-        <!-- Your main content goes here -->
-        <section id="home">
-            <!-- Home section content -->
-        </section>
-        <section id="features">
-            <!-- Features section content -->
-        </section>
-        <section id="pricing">
-            <!-- Pricing section content -->
-        </section>
-        <!-- Add more sections for other pages -->
-    </main>
+    <div class="container">
+        <div class="section">
+            <h2>Welcome to MacWare</h2>
+            <p>Your ultimate destination for Roblox executors.</p>
+            <a href="https://discord.gg/c26f7FRmnY" class="button">Get Executor</a>
+            <a href="https://discord.gg/c26f7FRmnY" class="button discord-button">Join Discord</a>
+        </div>
 
-    <footer>
-        <button class="get-executor">Get Executor</button>
-        <button class="join-discord" onclick="window.location.href='https://discord.gg/c26f7FRmnY'">Join Discord</button>
-    </footer>
+        <div class="section">
+            <h2>Dashboard Preview</h2>
+            <img src="dashboard-preview.png" alt="Dashboard Preview" class="dashboard-img">
+        </div>
+    </div>
 
-    <script src="script.js"></script>
+    <!-- Add more sections and content here -->
+
+    <script>
+        // Add animations using JavaScript
+    </script>
 </body>
 </html>
